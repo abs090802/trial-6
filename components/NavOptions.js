@@ -43,16 +43,14 @@ const NavOptions = () => {
                     >Bhavesh</Text>
 
                     <Icon 
-                    style={tw`p-2 bg-black rounded-full w-10 mt-14`}
+                    style={tw`p-2 bg-black rounded-full w-10 mt-4`}
                     name="arrowright"
                     color="white"
                     type='antdesign'
                     />
                     
                 </View>
-
-         </TouchableOpacity>
-            
+           </TouchableOpacity>
     )}
         />
     );
