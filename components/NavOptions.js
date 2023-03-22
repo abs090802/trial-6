@@ -31,7 +31,7 @@ const NavOptions = () => {
         renderItem={({item})=>(
             <TouchableOpacity
             onPress={() => naviagtion.navigate(item.screen)}
-            style={tw`p-2 pl-6 pb-8 pt-4 bg-gray m-2 w-40`}
+            style={tw`p-2 pl-6 pb-8 pt-4 bg-gray-100 m-2 w-40`}
             >
                 <View>
                     <Image
@@ -40,19 +40,16 @@ const NavOptions = () => {
                     />
                     <Text 
                     style={tw`mt-2 text-lg font-semibold`}
-                    >Bhavesh</Text>
+                    >{item.title}</Text>
 
                     <Icon 
                     style={tw`p-2 bg-black rounded-full w-10 mt-14`}
                     name="arrowright"
                     color="white"
                     type='antdesign'
-                    />
-                    
+                    />   
                 </View>
-
-         </TouchableOpacity>
-            
+         </TouchableOpacity>  
     )}
         />
     );
