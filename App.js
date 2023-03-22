@@ -22,14 +22,14 @@ export default function App() {
             name="HomeScreen"
             component={HomeScreen}
             options={{
-              headerShown: true,
+              headerShown: false,
             }}
             />
             <Stack.Screen
             name="MapScreen"
             component={MapScreen}
             options={{
-              headerShown: true,
+              headerShown: false,
             }}
             />
           </Stack.Navigator>
