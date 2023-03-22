@@ -54,7 +54,7 @@ const NavOptions = () => {
                     />
                     
                 </View>
-            </TouchableOpacity>
+           </TouchableOpacity>
     )}
         />
     );
