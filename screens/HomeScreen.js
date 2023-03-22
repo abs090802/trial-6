@@ -9,7 +9,7 @@ const HomeScreen = () => {
       <View style={tw`p-10`}>
         <Image
           style={{
-            width: 100,
+            width: 50,
             height: 100,
             resizeMode: "contain",
           }}
@@ -17,9 +17,8 @@ const HomeScreen = () => {
             uri: "https://i.pinimg.com/564x/6d/83/1a/6d831a334156291eedd036d44803c147.jpg",
           }}
         />
-
-        <NavOptions/>
       </View>
+      <NavOptions/>
     </SafeAreaView>
   );
 };
